@@ -22,3 +22,4 @@ originalMessage = "I hope you have a great summer!"
 encryptedMessage = caesarCipher(message=originalMessage, shiftNumber=shift)
 decryptedMessage = caesarCipher(message=encryptedMessage, shiftNumber=-shift)
 print(f"Original: {originalMessage}\nEncrypted:{encryptedMessage}\nDecrypted:{decryptedMessage}")
+assert(originalMessage == decryptedMessage)

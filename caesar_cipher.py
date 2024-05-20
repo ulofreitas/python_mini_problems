@@ -10,6 +10,7 @@ def caesarCipher(message, shiftNumber):
     Take in the message (string) as well as the shiftNumber (integer) and return the cipheredText (use the shiftNumber to do the Caeser Cipher logic!)
     """
     ALPHABET = list('ABCDEFGHIJKLMNOPQRSTUVWXYZ')
+    LOWERCASE_ALPHABET = list('abcdefghijklmnopqrstuvwxyz')
 
     cipheredText = ""
 
